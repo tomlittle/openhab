@@ -1,0 +1,720 @@
+[
+  {
+    "members": [],
+    "link": "http://172.20.11.1:8080/rest/items/LivingRoomLights",
+    "state": "NULL",
+    "editable": false,
+    "type": "Group",
+    "name": "LivingRoomLights",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/AstroSunData_Set_EndTime",
+    "state": "2021-11-20T16:38:00.000+0100",
+    "stateDescription": {
+      "pattern": "%1$tF %1$tR",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "DateTime",
+    "name": "AstroSunData_Set_EndTime",
+    "label": "Sunset",
+    "category": "Sun",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/fboxIncomingCall",
+    "state": ",",
+    "stateDescription": {
+      "pattern": "%1$s to %2$s",
+      "readOnly": false,
+      "options": []
+    },
+    "editable": false,
+    "type": "Call",
+    "name": "fboxIncomingCall",
+    "label": "Incoming call:",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/LivingRoom_CO2",
+    "state": "612 ppm",
+    "stateDescription": {
+      "pattern": "%d %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "LivingRoom_CO2",
+    "label": "Living Room CO2",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/ZWaveNode008FGDW002FibaroDoorWindowSensor2_SensorDoor",
+    "state": "NULL",
+    "stateDescription": {
+      "readOnly": true,
+      "options": [
+        {
+          "value": "OPEN",
+          "label": "Open"
+        },
+        {
+          "value": "CLOSED",
+          "label": "Closed"
+        }
+      ]
+    },
+    "commandDescription": {
+      "commandOptions": [
+        {
+          "command": "OPEN",
+          "label": "Open"
+        },
+        {
+          "command": "CLOSED",
+          "label": "Closed"
+        }
+      ]
+    },
+    "editable": true,
+    "type": "Contact",
+    "name": "ZWaveNode008FGDW002FibaroDoorWindowSensor2_SensorDoor",
+    "label": "Garage Door",
+    "category": "Door",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/X10EntryLighting_SwitchState",
+    "state": "OFF",
+    "editable": true,
+    "type": "Switch",
+    "name": "X10EntryLighting_SwitchState",
+    "label": "Entry lighting",
+    "category": "x10Light",
+    "tags": [
+      "Lighting"
+    ],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/SonosPlaybarLivingRoom_MediaControl",
+    "state": "PLAY",
+    "editable": true,
+    "type": "Player",
+    "name": "SonosPlaybarLivingRoom_MediaControl",
+    "label": "Playbar",
+    "category": "MediaControl",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/localWeather_RainRate",
+    "state": "0.0",
+    "stateDescription": {
+      "pattern": "%.3f",
+      "readOnly": false,
+      "options": []
+    },
+    "editable": false,
+    "type": "String",
+    "name": "localWeather_RainRate",
+    "label": "Rain Rate",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/X10NiklasBlinds_SwitchState",
+    "state": "ON",
+    "editable": true,
+    "type": "Switch",
+    "name": "X10NiklasBlinds_SwitchState",
+    "label": "Niklas's blinds",
+    "category": "x10Blind",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/NetatmoModuleUpstairs_Temperature",
+    "state": "23.5 °C",
+    "stateDescription": {
+      "pattern": "%.1f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "NetatmoModuleUpstairs_Temperature",
+    "label": "Upstairs Temperature",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/HueOutdoorLightMailbox_Illuminance",
+    "state": "732.8245331389044 lx",
+    "stateDescription": {
+      "pattern": "%.1f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Illuminance",
+    "name": "HueOutdoorLightMailbox_Illuminance",
+    "label": "Illuminance - Mailbox Sensor",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/fboxRinging_Out",
+    "state": "OFF",
+    "stateDescription": {
+      "pattern": "%s",
+      "readOnly": false,
+      "options": []
+    },
+    "editable": false,
+    "type": "Switch",
+    "name": "fboxRinging_Out",
+    "label": "Phone ringing",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/HueOutdoorMotionSensor2_Motion",
+    "state": "OFF",
+    "stateDescription": {
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Switch",
+    "name": "HueOutdoorMotionSensor2_Motion",
+    "label": "Motion - mailbox",
+    "category": "Motion",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/SonosBathroom_Control",
+    "state": "PAUSE",
+    "editable": true,
+    "type": "Player",
+    "name": "SonosBathroom_Control",
+    "label": "Sonos Bathroom",
+    "category": "MediaControl",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/localWeather_Pressure",
+    "state": "1022.7908156073551",
+    "stateDescription": {
+      "pattern": "%.3f",
+      "readOnly": false,
+      "options": []
+    },
+    "editable": false,
+    "type": "String",
+    "name": "localWeather_Pressure",
+    "label": "Barometric Pressure",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/HueTV_Color",
+    "state": "42,100,0",
+    "editable": true,
+    "type": "Color",
+    "name": "HueTV_Color",
+    "label": "TV Lamp",
+    "category": "ColorLight",
+    "tags": [],
+    "groupNames": [
+      "Living_room_lighting"
+    ]
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/Upstairs_Humidity",
+    "state": "44 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "pattern": "%d %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "Upstairs_Humidity",
+    "label": "Upstairs Humidity",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/fboxOutgoingCall",
+    "state": ",",
+    "stateDescription": {
+      "pattern": "%1$s to %2$s",
+      "readOnly": false,
+      "options": []
+    },
+    "editable": false,
+    "type": "Call",
+    "name": "fboxOutgoingCall",
+    "label": "Outgoing call:",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/Hallway_Switch_Scene",
+    "state": "NULL",
+    "editable": true,
+    "type": "Number",
+    "name": "Hallway_Switch_Scene",
+    "label": "Entry switch",
+    "category": "Switch",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/Entry_Hue_Lamp",
+    "state": "34,100,0",
+    "editable": true,
+    "type": "Color",
+    "name": "Entry_Hue_Lamp",
+    "label": "Entry Lamp",
+    "category": "ColorLight",
+    "tags": [],
+    "groupNames": [
+      "Living_room_lighting"
+    ]
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/hue_0820_00178813b3ab_3_dimmer_switch_event",
+    "state": "NULL",
+    "editable": true,
+    "type": "Switch",
+    "name": "hue_0820_00178813b3ab_3_dimmer_switch_event",
+    "label": "Hallway Switch",
+    "category": "Switch",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/HueOutdoorTempFrontYard_Temperature",
+    "state": "10.72 °C",
+    "stateDescription": {
+      "pattern": "%.1f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "HueOutdoorTempFrontYard_Temperature",
+    "label": "Outside Temperature - House Front",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/OUT_Lamp",
+    "state": "OFF",
+    "editable": true,
+    "type": "Switch",
+    "name": "OUT_Lamp",
+    "label": "Outdoor lighting",
+    "category": "x10Light",
+    "tags": [
+      "Lighting"
+    ],
+    "groupNames": [
+      "Outdoor_lighting"
+    ]
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/isWorkingDay",
+    "state": "OFF",
+    "editable": false,
+    "type": "Switch",
+    "name": "isWorkingDay",
+    "label": "Working day",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/AstroSunData_NauticDusk_EndTime",
+    "state": "2021-11-20T17:54:00.000+0100",
+    "stateDescription": {
+      "pattern": "%1$tF %1$tR",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "DateTime",
+    "name": "AstroSunData_NauticDusk_EndTime",
+    "label": "Nautical Dusk",
+    "category": "Sun",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/HueOutdoorLightFrontYard_Illuminance",
+    "state": "1277.0267659777508 lx",
+    "stateDescription": {
+      "pattern": "%.1f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Illuminance",
+    "name": "HueOutdoorLightFrontYard_Illuminance",
+    "label": "Illuminance - Front Yard Sensor",
+    "category": "Sensor",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/AstroSunData_CivilDusk_EndTime",
+    "state": "2021-11-20T17:14:00.000+0100",
+    "stateDescription": {
+      "pattern": "%1$tF %1$tR",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "DateTime",
+    "name": "AstroSunData_CivilDusk_EndTime",
+    "label": "Civil Dusk",
+    "category": "Sun",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/HueOutdoorTempMailbox_Temperature",
+    "state": "8.65 °C",
+    "stateDescription": {
+      "pattern": "%.1f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "HueOutdoorTempMailbox_Temperature",
+    "label": "Outside Temperature - Mailbox",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/netatmo_NAMain_183169d9_70ee503f65ea_Humidity",
+    "state": "46 %",
+    "stateDescription": {
+      "minimum": 0,
+      "maximum": 100,
+      "pattern": "%d %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Dimensionless",
+    "name": "netatmo_NAMain_183169d9_70ee503f65ea_Humidity",
+    "label": "Living Room Humidity",
+    "category": "Humidity",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/LivingRoom_Temperature",
+    "state": "22.299999237060546875 °C",
+    "stateDescription": {
+      "pattern": "%.1f %unit%",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "LivingRoom_Temperature",
+    "label": "Living room temperature",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/localWeather_OutsideHum",
+    "state": "85.0",
+    "stateDescription": {
+      "pattern": "%.1f",
+      "readOnly": false,
+      "options": []
+    },
+    "editable": false,
+    "type": "String",
+    "name": "localWeather_OutsideHum",
+    "label": "Outside Humidity",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/AstroSunData_Rise_EndTime",
+    "state": "2021-11-20T07:53:00.000+0100",
+    "stateDescription": {
+      "pattern": "%1$tF %1$tR",
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "DateTime",
+    "name": "AstroSunData_Rise_EndTime",
+    "label": "Sunrise",
+    "category": "Sun",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/HuePictureWindow_ColorTemperature",
+    "state": "75,77,0",
+    "editable": true,
+    "type": "Color",
+    "name": "HuePictureWindow_ColorTemperature",
+    "label": "Picture window lamp",
+    "category": "ColorLight",
+    "tags": [],
+    "groupNames": [
+      "Living_room_lighting",
+      "Living_room_lighting_group"
+    ]
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/fboxRinging",
+    "state": "OFF",
+    "stateDescription": {
+      "pattern": "%s",
+      "readOnly": false,
+      "options": []
+    },
+    "editable": false,
+    "type": "Switch",
+    "name": "fboxRinging",
+    "label": "Phone ringing",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/X10PictureWindowBlinds_SwitchState",
+    "state": "NULL",
+    "editable": true,
+    "type": "Switch",
+    "name": "X10PictureWindowBlinds_SwitchState",
+    "label": "Picture window blinds",
+    "category": "x10Blind",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/LivingRoomLighting",
+    "state": "ON",
+    "editable": false,
+    "type": "Switch",
+    "name": "LivingRoomLighting",
+    "label": "Living room lamps",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/ZWaveNode005ZS6101SmokeDetector_AlarmSmoke",
+    "state": "NULL",
+    "editable": true,
+    "type": "Switch",
+    "name": "ZWaveNode005ZS6101SmokeDetector_AlarmSmoke",
+    "label": "Upstairs Smoke Alarm",
+    "category": "Alarm",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/DR_Lamp",
+    "state": "OFF",
+    "editable": true,
+    "type": "Switch",
+    "name": "DR_Lamp",
+    "label": "Dining room lamp",
+    "category": "Light",
+    "tags": [],
+    "groupNames": [
+      "Living_room_lighting"
+    ]
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/localWeather_WindSpeed",
+    "state": "0.0",
+    "stateDescription": {
+      "pattern": "%.1f",
+      "readOnly": false,
+      "options": []
+    },
+    "editable": false,
+    "type": "String",
+    "name": "localWeather_WindSpeed",
+    "label": "Wind Speed",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/HueOutdoorMotionSensor1_Motion",
+    "state": "OFF",
+    "stateDescription": {
+      "readOnly": true,
+      "options": []
+    },
+    "editable": true,
+    "type": "Switch",
+    "name": "HueOutdoorMotionSensor1_Motion",
+    "label": "Motion - front yard",
+    "category": "Motion",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/isDaylight",
+    "state": "ON",
+    "editable": false,
+    "type": "Switch",
+    "name": "isDaylight",
+    "label": "Daylight",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/localWeather_OutsideTemp",
+    "state": "8.555555555555555",
+    "stateDescription": {
+      "pattern": "%.3f",
+      "readOnly": false,
+      "options": []
+    },
+    "editable": false,
+    "type": "String",
+    "name": "localWeather_OutsideTemp",
+    "label": "Outside Temperature",
+    "tags": [],
+    "groupNames": [
+      "Outdoors"
+    ]
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/ZWaveNode007FGR223RollerShutter3_BlindsControl",
+    "state": "NULL",
+    "editable": true,
+    "type": "Rollershutter",
+    "name": "ZWaveNode007FGR223RollerShutter3_BlindsControl",
+    "label": "Terrace Door Blinds",
+    "category": "Blinds",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/Fireplace_Lamp",
+    "state": "OFF",
+    "editable": true,
+    "type": "Switch",
+    "name": "Fireplace_Lamp",
+    "label": "Fireplace lamp",
+    "category": "Light",
+    "tags": [],
+    "groupNames": [
+      "Living_room_lighting"
+    ]
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/Guest_room_blinds",
+    "state": "NULL",
+    "editable": true,
+    "type": "Rollershutter",
+    "name": "Guest_room_blinds",
+    "label": "Guest room blinds",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/AmazonDotOberjosbach_Speak",
+    "state": "",
+    "editable": true,
+    "type": "String",
+    "name": "AmazonDotOberjosbach_Speak",
+    "label": "Amazon - Speak",
+    "category": "Speech",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "members": [],
+    "link": "http://172.20.11.1:8080/rest/items/Living_room_lighting",
+    "state": "NULL",
+    "editable": true,
+    "type": "Group",
+    "name": "Living_room_lighting",
+    "label": "Downstairs lamps",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/Globe",
+    "state": "OFF",
+    "editable": true,
+    "type": "Switch",
+    "name": "Globe",
+    "label": "Globe",
+    "category": "Light",
+    "tags": [],
+    "groupNames": [
+      "Living_room_lighting",
+      "Living_room_lighting_group"
+    ]
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/ZWaveNode008FGDW002FibaroDoorWindowSensor2_SensorTemperature",
+    "state": "26.1 °C",
+    "editable": true,
+    "type": "Number:Temperature",
+    "name": "ZWaveNode008FGDW002FibaroDoorWindowSensor2_SensorTemperature",
+    "label": "Garage Temperature",
+    "category": "Temperature",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/fboxIncomingCallResolved",
+    "state": ",",
+    "stateDescription": {
+      "pattern": "%1$s to %2$s",
+      "readOnly": false,
+      "options": []
+    },
+    "editable": false,
+    "type": "Call",
+    "name": "fboxIncomingCallResolved",
+    "label": "Incoming call:",
+    "tags": [],
+    "groupNames": []
+  },
+  {
+    "link": "http://172.20.11.1:8080/rest/items/HueStairwellLamp_Switch",
+    "state": "NULL",
+    "editable": true,
+    "type": "Switch",
+    "name": "HueStairwellLamp_Switch",
+    "label": "Stairwell Lamp",
+    "category": "Light",
+    "tags": [],
+    "groupNames": []
+  }
+]
